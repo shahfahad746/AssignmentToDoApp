@@ -1,0 +1,128 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Shadows+Into+Light&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    background-color: #57ace6;
+    
+}
+
+.container {
+
+
+    font-family: 'Acme', sans-serif;
+    background-color: #fff;
+    text-align: center;
+    width: 50%;
+    margin-top: 100px;
+    border-radius: 2rem;
+}
+
+#mainHeading {
+
+    text-decoration: underline;
+}
+
+#itemAddForm {
+
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    
+}
+
+#itemAddForm input[type="text"] {
+
+    color: #fff;
+    background-color: #000;
+    border-radius: 1rem;
+    border: 2px solid #fff;
+    outline: none;
+    width: 200px;
+    height: 30px;
+    padding: 1em;
+    font-size: 1.5em;
+    
+    
+}
+
+#itemAddForm input[type="button"] {
+
+    color: #fff;
+    background-color: #57ace6;
+    border: 2px solid #fff;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    width: 100px;
+    height: 40px;
+    outline: none;
+    padding: 0.3em;
+    vertical-align: middle;
+    
+}
+
+.container hr {
+
+    border: 1px solid black;
+}
+
+#listItems {
+
+    list-style-type: none;
+    text-align: justify;
+    position: relative;
+    
+}
+
+.listItem {
+
+    font-size: 1.5em;
+    margin-right: 3em;
+    font-weight: bold;
+    
+    
+}
+
+.editButton, .deleteButton {
+
+    color: #fff;
+    background-color: #57ace6;
+    margin: 0.2em;
+    width: 5em;
+    height: 2em;
+    border: 2px solid #fff;
+    border-radius: 2em;
+    outline: none;  
+    
+    
+    
+}
+
+.editButton {
+    position: absolute;
+    right: 10%;
+}
+
+.deleteButton {
+    position: absolute;
+    right: 0%;
+}
+
+.newInputText {
+
+    color: #fff;
+    background-color: #000;
+    border-radius: 1em;
+    height: 30px;
+    outline: none;
+    padding: 10px;
+}
+
